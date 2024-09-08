@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #1f2937;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+div > h1 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+.navbar > li {
+  display: inline;
+  font-size: 18px;
+  padding-left: 20px;
+  color: grey;
+  margin-top: 10px;
+}
+
+main {
+  background-color: #1f2937;
+  padding: 100px 0;
+}
+
+main > div {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #f9faf8;
+}
+
+.leftSide {
+  width: 40%;
+}
+
+.leftSide > h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.leftSide > p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.rightSide > .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #686d75;
+  width: 550px;
+  height: 250px;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.signUpBtn {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 40px;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.card + p {
+  width: 150px;
+  color: grey;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.quote > div {
+  width: 55%;
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+  padding: 100px;
+}
+
+.quote {
+  margin-top: 100px;
+  background-color: #e5e7eb;
+}
+
+.quoteAuthor {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+  padding-right: 100px;
+}
+
+.blueBtn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 120px;
+  margin: 100px auto;
+  background-color: #3882f6;
+  border-radius: 7px;
+}
+
+.blueBtn > .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #f9faf8;
+}
+
+.lastBtn {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 7px;
+  height: 42px;
+  width: 140.867px;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
